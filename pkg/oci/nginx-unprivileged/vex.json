@@ -1,0 +1,28 @@
+{
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "file://VEXRepo/pkg/oci/nginx-unprivileged",
+    "author": "?",
+    "version": 1,
+    "statements": [
+        {
+            "vulnerability": {
+                "name": "CVE-2023-6879"
+            },
+            "products": [
+                {
+                    "@id": "pkg:oci/nginx-unprivileged",
+                    "subcomponents": [
+                        {
+                            "@id": "pkg:deb/debian/libaom3"
+                        }
+                    ]
+                }
+            ],
+            "timestamp": "2024-10-23T13:59:24.237Z",
+            "status": "not_affected",
+            "justification": "vulnerable_code_not_in_execute_path",
+            "impact_statement": "...",
+            "action_statement": "..."
+        }
+    ]
+}
