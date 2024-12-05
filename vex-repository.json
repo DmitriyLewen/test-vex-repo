@@ -9,7 +9,7 @@
           "url": "https://github.com/DmitriyLewen/test-vex-repo/archive/refs/heads/main.tar.gz"
         }
       ],
-      "update_interval": "24h",
+      "update_interval": "24h"
     }
   ]
 }
